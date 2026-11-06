@@ -1,8 +1,3 @@
-@props( [
-    'title' => 'Default Title',
-]
-)
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>{{ $title }}</title>
     @vite('resources/css/app.css, resources/js/app.js')
-    <link href="tailwindcss/tailwind.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
     <x-navbar />
